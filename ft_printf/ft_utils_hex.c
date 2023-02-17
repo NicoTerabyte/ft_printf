@@ -37,8 +37,7 @@ static int	ft_address(unsigned long nb, const char *s)
 int	ft_address_print(unsigned long point, const char *s)
 {
 	int	i;
-	if (!point)
-		return (write(1, "(nil)", 5)); //qui va bene nil ma non null invece in putstr il contrario?
+	
 	i = 2;
 	ft_putchar('0');
 	ft_putchar('x');
